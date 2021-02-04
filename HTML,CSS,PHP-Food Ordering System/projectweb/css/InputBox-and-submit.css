@@ -1,0 +1,54 @@
+.inputBox{
+	position:relative;
+	}
+
+.inputBox input
+{
+	width:100%;
+	padding:10px 0;
+	font-size:16px;
+	letter-spacing:2px;
+	color:#333;
+	margin-bottom:30px;
+	border:none;
+	border-bottom:1px solid #666;
+	outline:none;
+	background: transparent;
+	}
+	
+.inputBox label
+{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+	font-size:16px;
+	color:#A82128;
+	pointer-events: none;
+	transition: .5s;
+	}	
+	
+.inputBox input:focus ~ label,	
+.inputBox input:valid ~ label
+{
+	top: -18px;
+	left:0;
+	color:#CCC;
+	font-size:12px;
+	}	
+  
+input[type=submit]
+
+{
+	
+	background: transparent;
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#A82128;
+	padding:10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+	
+	}
+  

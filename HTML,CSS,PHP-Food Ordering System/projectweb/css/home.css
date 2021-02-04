@@ -1,0 +1,93 @@
+/*html{
+	background:url(../img/home.jpg) no-repeat center fixed;
+	}*/
+
+.pic{
+	background:url(../img/home.jpg) no-repeat center fixed;
+	}	
+html,body{
+	margin:0;
+	padding:0;
+	}	
+	
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	background: #444;
+	}
+	
+nav ul li{
+	display:inline-block;
+	font-size: 1.1em;
+	padding:12px;
+	}	
+	
+nav a{
+	text-decoration:none;
+	color:#fff;
+	padding:12px;
+	}	
+	
+nav a:hover{
+		background:#18BC9C;
+		color:#fff;
+		}
+		
+#content {
+		color: #fff;
+		margin-top:200px;
+		width:100%;
+		text-align:center;
+		}	
+		
+#content h1{
+	font-size:80px;
+	font-weight:normal;
+	margin-bottom:-3px;
+	}	
+	
+#content h5{
+	font-weight:normal;
+	margin-top:0;
+	letter-spacing:8px;
+	}	
+	
+footer{
+	background:#000;
+	color:#fff;
+	padding:18px;
+	margin-top:482px;
+	}	
+	
+.footerLeft, .footerRight{
+	display: inline-block;
+	}
+	
+.footerLeft a{
+	color: #bbb;
+	text-decoration:none;
+	padding:5px;
+	}	
+	
+.footerLeft a:hover{
+	color: #fff;
+	}	
+	
+.footerRight{
+	float: right;
+	}	
+	
+	input[type=submit]
+{
+	
+	background: transparent;
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#A82128;
+	padding:10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+	
+	}

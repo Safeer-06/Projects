@@ -1,0 +1,25 @@
+#container
+{
+width:1500px;
+height:800px;
+background-color:#FF;
+position:fixed;
+}
+
+
+div.gallery{
+margin: 50px;
+border: 2px solid #ccc;/*border-width,border,border-color*/ 
+float:left;
+width: 200px;
+}
+
+div.gallery img{
+width: 90%;
+height: 200%;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
